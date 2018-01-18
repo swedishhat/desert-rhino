@@ -1,0 +1,355 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dark-and-stormy_pcb-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TUSB4041I U?
+U 1 1 5A19BC5B
+P 5900 4200
+F 0 "U?" H 6500 6300 50  0000 L CNN
+F 1 "TUSB4041I" H 6500 6200 50  0000 L CNN
+F 2 "Housings_QFP:HTQFP-64_1EP_10x10mm_Pitch0.5mm_ThermalPad" H 7100 6200 50  0001 L CNN
+F 3 "" H 5600 4400 50  0001 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_A J?
+U 1 1 5A19BC62
+P 3150 3500
+F 0 "J?" H 2950 3950 50  0000 L CNN
+F 1 "USB_A" H 2950 3850 50  0000 L CNN
+F 2 "" H 3300 3450 50  0001 C CNN
+F 3 "" H 3300 3450 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A19BC69
+P 3100 4050
+F 0 "#PWR?" H 3100 3800 50  0001 C CNN
+F 1 "GND" H 3100 3900 50  0000 C CNN
+F 2 "" H 3100 4050 50  0001 C CNN
+F 3 "" H 3100 4050 50  0001 C CNN
+	1    3100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A19BC70
+P 4050 3950
+F 0 "R?" V 3950 3900 50  0000 C CNN
+F 1 "9.53K" V 4150 3950 50  0000 C CNN
+F 2 "" V 3980 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+F 4 "1%" V 4250 3950 60  0000 C CNN "Precision"
+	1    4050 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A19BC78
+P 3850 2400
+F 0 "R?" H 3750 2400 50  0000 C CNN
+F 1 "90.9K" H 4050 2450 50  0000 C CNN
+F 2 "" V 3780 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+F 4 "1%" H 4000 2350 60  0000 C CNN "Precision"
+	1    3850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A19BC80
+P 3850 2800
+F 0 "R?" H 3750 2800 50  0000 C CNN
+F 1 "10K" H 4000 2850 50  0000 C CNN
+F 2 "" V 3780 2800 50  0001 C CNN
+F 3 "" H 3850 2800 50  0001 C CNN
+F 4 "1%" H 4000 2750 60  0000 C CNN "Precision"
+	1    3850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A19BC87
+P 3850 2950
+F 0 "#PWR?" H 3850 2700 50  0001 C CNN
+F 1 "GND" H 3850 2800 50  0000 C CNN
+F 2 "" H 3850 2950 50  0001 C CNN
+F 3 "" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	1    0    0    -1  
+$EndComp
+Text Label 4000 2600 0    60   ~ 0
+VBUS_DETECT
+$Comp
+L VBUS #PWR?
+U 1 1 5A19BC8E
+P 3850 2250
+F 0 "#PWR?" H 3850 2100 50  0001 C CNN
+F 1 "VBUS" H 3850 2400 50  0000 C CNN
+F 2 "" H 3850 2250 50  0001 C CNN
+F 3 "" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR?
+U 1 1 5A19BC94
+P 3450 3300
+F 0 "#PWR?" H 3450 3150 50  0001 C CNN
+F 1 "VBUS" H 3450 3450 50  0000 C CNN
+F 2 "" H 3450 3300 50  0001 C CNN
+F 3 "" H 3450 3300 50  0001 C CNN
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3500 4600 3500
+Wire Wire Line
+	3450 3600 4600 3600
+Wire Wire Line
+	4600 3950 4600 3700
+Wire Wire Line
+	3850 2550 3850 2650
+Wire Wire Line
+	3850 2600 4600 2600
+Wire Wire Line
+	4600 2600 4600 2800
+Connection ~ 3850 2600
+Wire Wire Line
+	3050 3900 3050 3950
+Wire Wire Line
+	3050 3950 3900 3950
+Wire Wire Line
+	3100 4050 3100 3950
+Connection ~ 3100 3950
+Wire Wire Line
+	3150 3900 3150 3950
+Connection ~ 3150 3950
+Wire Wire Line
+	4200 3950 4600 3950
+$Comp
+L TUSB4041I U?
+U 1 1 5A19BCA8
+P 5900 4200
+F 0 "U?" H 6500 6300 50  0000 L CNN
+F 1 "TUSB4041I" H 6500 6200 50  0000 L CNN
+F 2 "Housings_QFP:HTQFP-64_1EP_10x10mm_Pitch0.5mm_ThermalPad" H 7100 6200 50  0001 L CNN
+F 3 "" H 5600 4400 50  0001 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_A J?
+U 1 1 5A19BCAF
+P 3150 3500
+F 0 "J?" H 2950 3950 50  0000 L CNN
+F 1 "USB_A" H 2950 3850 50  0000 L CNN
+F 2 "" H 3300 3450 50  0001 C CNN
+F 3 "" H 3300 3450 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A19BCB6
+P 3100 4050
+F 0 "#PWR?" H 3100 3800 50  0001 C CNN
+F 1 "GND" H 3100 3900 50  0000 C CNN
+F 2 "" H 3100 4050 50  0001 C CNN
+F 3 "" H 3100 4050 50  0001 C CNN
+	1    3100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A19BCBD
+P 4050 3950
+F 0 "R?" V 3950 3900 50  0000 C CNN
+F 1 "9.53K" V 4150 3950 50  0000 C CNN
+F 2 "" V 3980 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+F 4 "1%" V 4250 3950 60  0000 C CNN "Precision"
+	1    4050 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A19BCC5
+P 3850 2400
+F 0 "R?" H 3750 2400 50  0000 C CNN
+F 1 "90.9K" H 4050 2450 50  0000 C CNN
+F 2 "" V 3780 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+F 4 "1%" H 4000 2350 60  0000 C CNN "Precision"
+	1    3850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A19BCCD
+P 3850 2800
+F 0 "R?" H 3750 2800 50  0000 C CNN
+F 1 "10K" H 4000 2850 50  0000 C CNN
+F 2 "" V 3780 2800 50  0001 C CNN
+F 3 "" H 3850 2800 50  0001 C CNN
+F 4 "1%" H 4000 2750 60  0000 C CNN "Precision"
+	1    3850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A19BCD4
+P 3850 2950
+F 0 "#PWR?" H 3850 2700 50  0001 C CNN
+F 1 "GND" H 3850 2800 50  0000 C CNN
+F 2 "" H 3850 2950 50  0001 C CNN
+F 3 "" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	1    0    0    -1  
+$EndComp
+Text Label 4000 2600 0    60   ~ 0
+VBUS_DETECT
+$Comp
+L VBUS #PWR?
+U 1 1 5A19BCDB
+P 3850 2250
+F 0 "#PWR?" H 3850 2100 50  0001 C CNN
+F 1 "VBUS" H 3850 2400 50  0000 C CNN
+F 2 "" H 3850 2250 50  0001 C CNN
+F 3 "" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VBUS #PWR?
+U 1 1 5A19BCE1
+P 3450 3300
+F 0 "#PWR?" H 3450 3150 50  0001 C CNN
+F 1 "VBUS" H 3450 3450 50  0000 C CNN
+F 2 "" H 3450 3300 50  0001 C CNN
+F 3 "" H 3450 3300 50  0001 C CNN
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3950 3100 3950
+$Comp
+L Raspberry_Pi_2_3 J?
+U 1 1 5A19C70F
+P 8900 3750
+F 0 "J?" H 9600 2500 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 8500 4650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 9900 5000 50  0001 C CNN
+F 3 "" H 8950 3600 50  0001 C CNN
+	1    8900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A19C716
+P 9200 5200
+F 0 "#PWR?" H 9200 4950 50  0001 C CNN
+F 1 "GND" H 9200 5050 50  0000 C CNN
+F 2 "" H 9200 5200 50  0001 C CNN
+F 3 "" H 9200 5200 50  0001 C CNN
+	1    9200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5050 8500 5100
+Wire Wire Line
+	8500 5100 9200 5100
+Wire Wire Line
+	9200 5050 9200 5200
+Wire Wire Line
+	8600 5050 8600 5100
+Connection ~ 8600 5100
+Wire Wire Line
+	8700 5050 8700 5100
+Connection ~ 8700 5100
+Wire Wire Line
+	8800 5100 8800 5050
+Connection ~ 8800 5100
+Wire Wire Line
+	8900 5100 8900 5050
+Connection ~ 8900 5100
+Wire Wire Line
+	9000 5100 9000 5050
+Connection ~ 9000 5100
+Wire Wire Line
+	9100 5100 9100 5050
+Connection ~ 9100 5100
+Connection ~ 9200 5100
+$Comp
+L Raspberry_Pi_2_3 J?
+U 1 1 5A19C72C
+P 8900 3750
+F 0 "J?" H 9600 2500 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 8500 4650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 9900 5000 50  0001 C CNN
+F 3 "" H 8950 3600 50  0001 C CNN
+	1    8900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A19C733
+P 9200 5200
+F 0 "#PWR?" H 9200 4950 50  0001 C CNN
+F 1 "GND" H 9200 5050 50  0000 C CNN
+F 2 "" H 9200 5200 50  0001 C CNN
+F 3 "" H 9200 5200 50  0001 C CNN
+	1    9200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5100 9100 5100
+$EndSCHEMATC
