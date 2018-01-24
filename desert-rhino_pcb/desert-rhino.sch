@@ -99,7 +99,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -116,9 +116,15 @@ F0 "Raspberry Pi and Power" 60
 F1 "desert-rhino_1_raspi-power.sch" 60
 $EndSheet
 $Sheet
-S 5300 1800 1850 1150
+S 5300 1800 1350 350 
 U 5A6034DD
 F0 "STM32 and USB PD" 60
 F1 "desert-rhino_2_stm-usb.sch" 60
+$EndSheet
+$Sheet
+S 5050 3050 1600 500 
+U 5A687A1F
+F0 "CC Buffer and Select" 60
+F1 "desert-rhino_3_cc-ctrl.sch" 60
 $EndSheet
 $EndSCHEMATC

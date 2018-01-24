@@ -1,0 +1,680 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:74xgxx
+LIBS:Altera
+LIBS:ESD_Protection
+LIBS:LEM
+LIBS:Lattice
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:RFSolutions
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:Zilog
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:leds
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm32
+LIBS:stm8
+LIBS:supertex
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:zetex
+LIBS:desert-rhino-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2N7002 Q?
+U 1 1 5A687A28
+P 3100 2150
+F 0 "Q?" H 3300 2225 50  0000 L CNN
+F 1 "2N7002" H 3300 2150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3300 2075 50  0001 L CIN
+F 3 "" H 3100 2150 50  0001 L CNN
+	1    3100 2150
+	0    -1   1    0   
+$EndComp
+Text Label 2350 2250 0    60   ~ 0
+USB_C_CC1
+Text Label 2350 1550 0    60   ~ 0
+CC1_EN
+$Comp
+L R R?
+U 1 1 5A687B83
+P 2850 1750
+F 0 "R?" V 2930 1750 50  0000 C CNN
+F 1 "301K" V 2750 1750 50  0000 C CNN
+F 2 "" V 2780 1750 50  0001 C CNN
+F 3 "" H 2850 1750 50  0001 C CNN
+	1    2850 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A687BA7
+P 2850 1950
+F 0 "#PWR?" H 2850 1700 50  0001 C CNN
+F 1 "GND" H 2850 1800 50  0000 C CNN
+F 2 "" H 2850 1950 50  0001 C CNN
+F 3 "" H 2850 1950 50  0001 C CNN
+	1    2850 1950
+	1    0    0    -1  
+$EndComp
+Text Label 3350 2250 0    60   ~ 0
+CC1
+$Comp
+L R R?
+U 1 1 5A687CC4
+P 3650 2050
+F 0 "R?" V 3730 2050 50  0000 C CNN
+F 1 "4.75K" V 3550 2050 50  0000 C CNN
+F 2 "" V 3580 2050 50  0001 C CNN
+F 3 "" H 3650 2050 50  0001 C CNN
+	1    3650 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A687DD1
+P 3950 2050
+F 0 "R?" V 4030 2050 50  0000 C CNN
+F 1 "12.1K" V 3850 2050 50  0000 C CNN
+F 2 "" V 3880 2050 50  0001 C CNN
+F 3 "" H 3950 2050 50  0001 C CNN
+	1    3950 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A687DFD
+P 4250 2050
+F 0 "R?" V 4330 2050 50  0000 C CNN
+F 1 "35.7K" V 4150 2050 50  0000 C CNN
+F 2 "" V 4180 2050 50  0001 C CNN
+F 3 "" H 4250 2050 50  0001 C CNN
+	1    4250 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A687E28
+P 3800 2450
+F 0 "R?" V 3880 2450 50  0000 C CNN
+F 1 "1K" V 3700 2450 50  0000 C CNN
+F 2 "" V 3730 2450 50  0001 C CNN
+F 3 "" H 3800 2450 50  0001 C CNN
+	1    3800 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A687E60
+P 4150 2450
+F 0 "R?" V 4230 2450 50  0000 C CNN
+F 1 "5.11K" V 4050 2450 50  0000 C CNN
+F 2 "" V 4080 2450 50  0001 C CNN
+F 3 "" H 4150 2450 50  0001 C CNN
+	1    4150 2450
+	-1   0    0    1   
+$EndComp
+Text Label 4800 2600 2    60   ~ 0
+CC1_RD
+Text Label 4800 2750 2    60   ~ 0
+CC1_RA
+Text Label 4800 1700 2    60   ~ 0
+CC1_RP3A0
+Text Label 4800 1800 2    60   ~ 0
+CC1_RP1A5
+Text Label 4800 1900 2    60   ~ 0
+CC1_RPUSB
+$Comp
+L 2N7002 Q?
+U 1 1 5A6880FE
+P 5350 2000
+F 0 "Q?" H 5550 2075 50  0000 L CNN
+F 1 "2N7002" H 5550 2000 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5550 1925 50  0001 L CIN
+F 3 "" H 5350 2000 50  0001 L CNN
+	1    5350 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 5A6881D7
+P 5350 2850
+F 0 "Q?" H 5550 2925 50  0000 L CNN
+F 1 "2N7002" H 5550 2850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5550 2775 50  0001 L CIN
+F 3 "" H 5350 2850 50  0001 L CNN
+	1    5350 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A68821A
+P 5250 2450
+F 0 "R?" V 5330 2450 50  0000 C CNN
+F 1 "100" V 5150 2450 50  0000 C CNN
+F 2 "" V 5180 2450 50  0001 C CNN
+F 3 "" H 5250 2450 50  0001 C CNN
+	1    5250 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A688288
+P 5250 1600
+F 0 "R?" V 5330 1600 50  0000 C CNN
+F 1 "200" V 5150 1600 50  0000 C CNN
+F 2 "" V 5180 1600 50  0001 C CNN
+F 3 "" H 5250 1600 50  0001 C CNN
+	1    5250 1600
+	-1   0    0    1   
+$EndComp
+Text Label 6150 2000 2    60   ~ 0
+CC1_TX_DATA
+Text Label 6150 2850 2    60   ~ 0
+CC1_TX_EN
+$Comp
+L +3.3V #PWR?
+U 1 1 5A688B28
+P 6400 2000
+F 0 "#PWR?" H 6400 1850 50  0001 C CNN
+F 1 "+3.3V" H 6400 2140 50  0000 C CNN
+F 2 "" H 6400 2000 50  0001 C CNN
+F 3 "" H 6400 2000 50  0001 C CNN
+	1    6400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A688B7D
+P 6400 2700
+F 0 "#PWR?" H 6400 2450 50  0001 C CNN
+F 1 "GND" H 6400 2550 50  0000 C CNN
+F 2 "" H 6400 2700 50  0001 C CNN
+F 3 "" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8620 U?
+U 1 1 5A688DC7
+P 6500 2350
+F 0 "U?" H 6500 2550 50  0000 L CNN
+F 1 "AD8620" H 6500 2150 50  0000 L CNN
+F 2 "" H 6500 2350 50  0001 C CNN
+F 3 "" H 6500 2350 50  0001 C CNN
+	1    6500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8620 U?
+U 2 1 5A688E48
+P 6500 4600
+F 0 "U?" H 6500 4800 50  0000 L CNN
+F 1 "AD8620" H 6500 4400 50  0000 L CNN
+F 2 "" H 6500 4600 50  0001 C CNN
+F 3 "" H 6500 4600 50  0001 C CNN
+	2    6500 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 1650 0    60   ~ 0
+Change to AD8606 or equivalent. Rail to rail is important
+Wire Wire Line
+	2350 2250 2900 2250
+Wire Wire Line
+	2350 1550 3100 1550
+Wire Wire Line
+	3100 1550 3100 1950
+Connection ~ 2850 1550
+Wire Wire Line
+	2850 1600 2850 1550
+Wire Wire Line
+	2850 1950 2850 1900
+Wire Wire Line
+	4800 1900 4250 1900
+Wire Wire Line
+	4800 1800 3950 1800
+Wire Wire Line
+	3950 1800 3950 1900
+Wire Wire Line
+	4800 1700 3650 1700
+Wire Wire Line
+	3650 1700 3650 1900
+Wire Wire Line
+	3300 2250 6200 2250
+Wire Wire Line
+	3650 2200 3650 2250
+Connection ~ 3650 2250
+Wire Wire Line
+	3950 2200 3950 2250
+Connection ~ 3950 2250
+Wire Wire Line
+	4250 2200 4250 2250
+Connection ~ 4250 2250
+Wire Wire Line
+	3800 2300 3800 2250
+Connection ~ 3800 2250
+Wire Wire Line
+	4150 2300 4150 2250
+Connection ~ 4150 2250
+Wire Wire Line
+	4150 2600 4800 2600
+Wire Wire Line
+	3800 2600 3800 2750
+Wire Wire Line
+	3800 2750 4800 2750
+Wire Wire Line
+	5550 2000 6150 2000
+Wire Wire Line
+	5550 2850 6150 2850
+Wire Wire Line
+	5250 2650 5250 2600
+Wire Wire Line
+	5250 2200 5250 2300
+Wire Wire Line
+	5250 1800 5250 1750
+Wire Wire Line
+	6400 2050 6400 2000
+Wire Wire Line
+	6400 2700 6400 2650
+Connection ~ 5250 2250
+Wire Wire Line
+	6200 2450 6200 2900
+Wire Wire Line
+	6200 2900 6850 2900
+Wire Wire Line
+	6850 2900 6850 2350
+Wire Wire Line
+	6800 2350 7300 2350
+Text Label 7300 2350 2    60   ~ 0
+CC1_BUF
+Connection ~ 6850 2350
+$Comp
+L 2N7002 Q?
+U 1 1 5A68B1F6
+P 3100 4400
+F 0 "Q?" H 3300 4475 50  0000 L CNN
+F 1 "2N7002" H 3300 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3300 4325 50  0001 L CIN
+F 3 "" H 3100 4400 50  0001 L CNN
+	1    3100 4400
+	0    -1   1    0   
+$EndComp
+Text Label 2350 4500 0    60   ~ 0
+USB_C_CC2
+Text Label 2350 3800 0    60   ~ 0
+CC2_EN
+$Comp
+L R R?
+U 1 1 5A68B1FE
+P 2850 4000
+F 0 "R?" V 2930 4000 50  0000 C CNN
+F 1 "301K" V 2750 4000 50  0000 C CNN
+F 2 "" V 2780 4000 50  0001 C CNN
+F 3 "" H 2850 4000 50  0001 C CNN
+	1    2850 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A68B204
+P 2850 4200
+F 0 "#PWR?" H 2850 3950 50  0001 C CNN
+F 1 "GND" H 2850 4050 50  0000 C CNN
+F 2 "" H 2850 4200 50  0001 C CNN
+F 3 "" H 2850 4200 50  0001 C CNN
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+Text Label 3350 4500 0    60   ~ 0
+CC2
+$Comp
+L R R?
+U 1 1 5A68B20B
+P 3650 4300
+F 0 "R?" V 3730 4300 50  0000 C CNN
+F 1 "4.75K" V 3550 4300 50  0000 C CNN
+F 2 "" V 3580 4300 50  0001 C CNN
+F 3 "" H 3650 4300 50  0001 C CNN
+	1    3650 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A68B211
+P 3950 4300
+F 0 "R?" V 4030 4300 50  0000 C CNN
+F 1 "12.1K" V 3850 4300 50  0000 C CNN
+F 2 "" V 3880 4300 50  0001 C CNN
+F 3 "" H 3950 4300 50  0001 C CNN
+	1    3950 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A68B217
+P 4250 4300
+F 0 "R?" V 4330 4300 50  0000 C CNN
+F 1 "35.7K" V 4150 4300 50  0000 C CNN
+F 2 "" V 4180 4300 50  0001 C CNN
+F 3 "" H 4250 4300 50  0001 C CNN
+	1    4250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A68B21D
+P 3800 4700
+F 0 "R?" V 3880 4700 50  0000 C CNN
+F 1 "1K" V 3700 4700 50  0000 C CNN
+F 2 "" V 3730 4700 50  0001 C CNN
+F 3 "" H 3800 4700 50  0001 C CNN
+	1    3800 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A68B223
+P 4150 4700
+F 0 "R?" V 4230 4700 50  0000 C CNN
+F 1 "5.11K" V 4050 4700 50  0000 C CNN
+F 2 "" V 4080 4700 50  0001 C CNN
+F 3 "" H 4150 4700 50  0001 C CNN
+	1    4150 4700
+	-1   0    0    1   
+$EndComp
+Text Label 4800 4850 2    60   ~ 0
+CC2_RD
+Text Label 4800 5000 2    60   ~ 0
+CC2_RA
+Text Label 4800 3950 2    60   ~ 0
+CC2_RP3A0
+Text Label 4800 4050 2    60   ~ 0
+CC2_RP1A5
+Text Label 4800 4150 2    60   ~ 0
+CC2_RPUSB
+$Comp
+L 2N7002 Q?
+U 1 1 5A68B22E
+P 5350 4250
+F 0 "Q?" H 5550 4325 50  0000 L CNN
+F 1 "2N7002" H 5550 4250 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5550 4175 50  0001 L CIN
+F 3 "" H 5350 4250 50  0001 L CNN
+	1    5350 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 5A68B234
+P 5350 5100
+F 0 "Q?" H 5550 5175 50  0000 L CNN
+F 1 "2N7002" H 5550 5100 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5550 5025 50  0001 L CIN
+F 3 "" H 5350 5100 50  0001 L CNN
+	1    5350 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A68B23A
+P 5250 4700
+F 0 "R?" V 5330 4700 50  0000 C CNN
+F 1 "100" V 5150 4700 50  0000 C CNN
+F 2 "" V 5180 4700 50  0001 C CNN
+F 3 "" H 5250 4700 50  0001 C CNN
+	1    5250 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A68B240
+P 5250 3850
+F 0 "R?" V 5330 3850 50  0000 C CNN
+F 1 "200" V 5150 3850 50  0000 C CNN
+F 2 "" V 5180 3850 50  0001 C CNN
+F 3 "" H 5250 3850 50  0001 C CNN
+	1    5250 3850
+	-1   0    0    1   
+$EndComp
+Text Label 6150 4250 2    60   ~ 0
+CC2_TX_DATA
+Text Label 6150 5100 2    60   ~ 0
+CC2_TX_EN
+Wire Wire Line
+	2350 4500 2900 4500
+Wire Wire Line
+	2350 3800 3100 3800
+Wire Wire Line
+	3100 3800 3100 4200
+Connection ~ 2850 3800
+Wire Wire Line
+	2850 3850 2850 3800
+Wire Wire Line
+	2850 4200 2850 4150
+Wire Wire Line
+	4800 4150 4250 4150
+Wire Wire Line
+	4800 4050 3950 4050
+Wire Wire Line
+	3950 4050 3950 4150
+Wire Wire Line
+	4800 3950 3650 3950
+Wire Wire Line
+	3650 3950 3650 4150
+Wire Wire Line
+	3300 4500 6200 4500
+Wire Wire Line
+	3650 4450 3650 4500
+Connection ~ 3650 4500
+Wire Wire Line
+	3950 4450 3950 4500
+Connection ~ 3950 4500
+Wire Wire Line
+	4250 4450 4250 4500
+Connection ~ 4250 4500
+Wire Wire Line
+	3800 4550 3800 4500
+Connection ~ 3800 4500
+Wire Wire Line
+	4150 4550 4150 4500
+Connection ~ 4150 4500
+Wire Wire Line
+	4150 4850 4800 4850
+Wire Wire Line
+	3800 4850 3800 5000
+Wire Wire Line
+	3800 5000 4800 5000
+Wire Wire Line
+	5550 4250 6150 4250
+Wire Wire Line
+	5550 5100 6150 5100
+Wire Wire Line
+	5250 4900 5250 4850
+Wire Wire Line
+	5250 4450 5250 4550
+Wire Wire Line
+	5250 4050 5250 4000
+Connection ~ 5250 4500
+$Comp
+L +3.3V #PWR?
+U 1 1 5A68B8D0
+P 5250 1400
+F 0 "#PWR?" H 5250 1250 50  0001 C CNN
+F 1 "+3.3V" H 5250 1540 50  0000 C CNN
+F 2 "" H 5250 1400 50  0001 C CNN
+F 3 "" H 5250 1400 50  0001 C CNN
+	1    5250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1450 5250 1400
+$Comp
+L +3.3V #PWR?
+U 1 1 5A68C011
+P 5250 3650
+F 0 "#PWR?" H 5250 3500 50  0001 C CNN
+F 1 "+3.3V" H 5250 3790 50  0000 C CNN
+F 2 "" H 5250 3650 50  0001 C CNN
+F 3 "" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3700 5250 3650
+$Comp
+L +3.3V #PWR?
+U 1 1 5A68D4B8
+P 6400 4250
+F 0 "#PWR?" H 6400 4100 50  0001 C CNN
+F 1 "+3.3V" H 6400 4390 50  0000 C CNN
+F 2 "" H 6400 4250 50  0001 C CNN
+F 3 "" H 6400 4250 50  0001 C CNN
+	1    6400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4300 6400 4250
+$Comp
+L GND #PWR?
+U 1 1 5A68D56C
+P 6400 4950
+F 0 "#PWR?" H 6400 4700 50  0001 C CNN
+F 1 "GND" H 6400 4800 50  0000 C CNN
+F 2 "" H 6400 4950 50  0001 C CNN
+F 3 "" H 6400 4950 50  0001 C CNN
+	1    6400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4950 6400 4900
+Text Label 7300 4600 2    60   ~ 0
+CC2_BUF
+Wire Wire Line
+	6200 4700 6200 5150
+Wire Wire Line
+	6200 5150 6850 5150
+Wire Wire Line
+	6850 5150 6850 4600
+Wire Wire Line
+	6800 4600 7300 4600
+Connection ~ 6850 4600
+$Comp
+L GND #PWR?
+U 1 1 5A68F25C
+P 5250 3100
+F 0 "#PWR?" H 5250 2850 50  0001 C CNN
+F 1 "GND" H 5250 2950 50  0000 C CNN
+F 2 "" H 5250 3100 50  0001 C CNN
+F 3 "" H 5250 3100 50  0001 C CNN
+	1    5250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3100 5250 3050
+$Comp
+L GND #PWR?
+U 1 1 5A68F821
+P 5250 5350
+F 0 "#PWR?" H 5250 5100 50  0001 C CNN
+F 1 "GND" H 5250 5200 50  0000 C CNN
+F 2 "" H 5250 5350 50  0001 C CNN
+F 3 "" H 5250 5350 50  0001 C CNN
+	1    5250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5350 5250 5300
+Text Notes 3700 1450 0    60   ~ 0
+RP RESISTORS TO 3.3V
+Text Notes 3700 3750 0    60   ~ 0
+RP RESISTORS TO 3.3V
+$EndSCHEMATC
